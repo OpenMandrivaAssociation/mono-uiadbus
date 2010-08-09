@@ -10,7 +10,7 @@ BuildArch:	noarch
 BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 2.0
 BuildRequires:	glib-sharp2 >= 2.12.8
-BuildRequires:	ndesk-dbus > 0.0.6
+BuildRequires:	ndesk-dbus-devel > 0.0.6
 Summary:	UiaDbus Types and Interfaces
 Group:		Development/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
