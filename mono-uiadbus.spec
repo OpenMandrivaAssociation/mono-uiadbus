@@ -10,7 +10,6 @@ BuildArch:	noarch
 BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 2.0.3
 BuildRequires:	glib-sharp2 >= 2.12.8
-BuildRequires:	ndesk-dbus-devel > 0.0.6
 Summary:	UiaDbus Types and Interfaces
 Group:		Development/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -23,8 +22,7 @@ UIAutomationClient.
 %setup -q -n %{oname}-%{version}
 
 %build
-./configure --prefix=%_prefix --libdir=%_prefix/lib \
-	--enable-external-ndesk-dbus
+./configure --prefix=%_prefix --libdir=%_prefix/lib
 make
 
 %install
