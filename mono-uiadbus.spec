@@ -4,7 +4,7 @@ Name:     	mono-%{oname}
 Version:	2.1
 Release:	%mkrel 1
 License:	MIT or X11
-URL:		http://www.mono-a11y.org/
+URL:		https://www.mono-a11y.org/
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{oname}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	mono-devel >= 2.4
