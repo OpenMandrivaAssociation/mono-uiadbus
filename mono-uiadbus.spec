@@ -7,6 +7,11 @@ License:	MIT or X11
 URL:		https://www.mono-a11y.org/
 Source0:	http://mono-a11y.org/releases/%{version}/sources/%{oname}-%{version}.tar.bz2
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	mono-devel >= 2.4
 BuildRequires:	mono-uia >= 2.0.3
 BuildRequires:	glib-sharp2 >= 2.12.8
